@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MD. Merajul Akon - Portfolio</title>
+    <!-- Google Fonts & Font Awesome Icons -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Poppins', sans-serif;
+        }
+        body {
+            background-color: #f4f7f6;
+            color: #333;
+            line-height: 1.6;
+        }
+        header {
+            background: linear-gradient(135deg, #1e3c72, #2a5298);
+            color: white;
+            padding: 60px 20px;
+            text-align: center;
+        }
+        .profile-img {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            object-fit: cover;
+            border: 4px solid #fff;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+            margin-bottom: 15px;
+        }
+        header h1 {
+            font-size: 2.2rem;
+            margin-bottom: 5px;
+        }
+        header p {
+            font-size: 1.1rem;
+            opacity: 0.9;
+        }
+        .container {
+            max-width: 1000px;
+            margin: 30px auto;
+            padding: 0 20px;
+        }
+        .card {
+            background: #fff;
+            padding: 25px;
+            margin-bottom: 25px;
+            border-radius: 10px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.05);
+        }
+        .card h2 {
+            color: #1e3c72;
+            border-bottom: 2px solid #1e3c72;
+            padding-bottom: 8px;
+            margin-bottom: 15px;
+            font-size: 1.4rem;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+        .contact-info {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 15px;
+        }
+        .contact-item {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+        .contact-item i {
+            color: #1e3c72;
+            font-size: 1.2rem;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 10px;
+        }
+        table, th, td {
+            border: 1px solid #ddd;
+        }
+        th, td {
+            padding: 10px;
+            text-align: left;
+        }
+        th {
+            background-color: #1e3c72;
+            color: white;
+        }
+        ul {
+            list-style-type: square;
+            margin-left: 20px;
+        }
+        .timeline-item {
+            margin-bottom: 15px;
+            border-left: 3px solid #1e3c72;
+            padding-left: 15px;
+        }
+        .timeline-item h3 {
+            font-size: 1.1rem;
+            color: #2a5298;
+        }
+        .timeline-item span {
+            font-size: 0.9rem;
+            color: #666;
+        }
+        footer {
+            text-align: center;
+            padding: 20px;
+            background: #1e3c72;
+            color: white;
+            margin-top: 40px;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Header Section -->
+    <header>
+        <!-- Aponi apnar profile picture-ti 'profile.jpg' name same folder-e rakhen -->
+        <img src="profile.jpg" alt="MD. Merajul Akon" class="profile-img">
+        <h1>MD. MERAJUL AKON</h1>
+        <p>B.Ed in Education | University of Dhaka</p>
+    </header>
+
+    <div class="container">
+        
+        <!-- Contact Information -->
+        <div class="card">
+            <h2><i class="fas fa-address-card"></i> Contact Information</h2>
+            <div class="contact-info">
+                <div class="contact-item">
+                    <i class="fas fa-phone"></i>
+                    <span>01893176289 / 01575814040</span>
+                </div>
+                <div class="contact-item">
+                    <i class="fas fa-envelope"></i>
+                    <span>mirazul776@gmail.com</span>
+                </div>
+                <div class="contact-item">
+                    <i class="fas fa-map-marker-alt"></i>
+                    <span>Room-233, Haji Mohammad Mohsin Hall, University of Dhaka</span>
+                </div>
+                <div class="contact-item">
+                    <i class="fas fa-home"></i>
+                    <span>Pirojpur Sadar, Pirojpur</span>
+                </div>
+            </div>
+        </div>
+
+        <!-- Academic Qualification -->
+        <div class="card">
+            <h2><i class="fas fa-graduation-cap"></i> Academic Qualification</h2>
+            <div style="overflow-x:auto;">
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Degree</th>
+                            <th>Subject/Major</th>
+                            <th>Institution</th>
+                            <th>Year</th>
+                            <th>Result</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>B.Ed</td>
+                            <td>Education</td>
+                            <td>Institute of Education & Research, University of Dhaka</td>
+                            <td>2024</td>
+                            <td>CGPA 3.57 / 4.00</td>
+                        </tr>
+                        <tr>
+                            <td>H.S.C</td>
+                            <td>Business Studies</td>
+                            <td>Pirojpur Govt. Showrawardy College (Barisal Board)</td>
+                            <td>2020</td>
+                            <td>GPA 4.50 / 5.00</td>
+                        </tr>
+                        <tr>
+                            <td>S.S.C</td>
+                            <td>Business Studies</td>
+                            <td>Pirojpur Town Secondary High School (Barisal Board)</td>
+                            <td>2018</td>
+                            <td>GPA 4.67 / 5.00</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+
+        <!-- Job Experience -->
+        <div class="card">
+            <h2><i class="fas fa-briefcase"></i> Job Experience</h2>
+            <div class="timeline-item">
+                <h3>Q&A Section - Udvash Academic Teacher</h3>
+                <span>December 26, 2024 – November 25, 2025 (10 months)</span>
+            </div>
+            <div class="timeline-item">
+                <h3>Assistant - Trainee Assistant Teacher</h3>
+                <span>November 3, 2024 – February 27, 2025 (3 months)</span>
+            </div>
+        </div>
+
+        <!-- Skills & Languages -->
+        <div class="card">
+            <h2><i class="fas fa-tools"></i> Skills & Language Proficiency</h2>
+            <p><strong>Computer Skills:</strong> Proficient in Microsoft Word and Microsoft Excel</p>
+            <br>
+            <p><strong>English Proficiency:</strong></p>
+            <ul>
+                <li>Reading: Excellent</li>
+                <li>Writing: Good</li>
+                <li>Speaking: Good</li>
+            </ul>
+        </div>
+
+        <!-- Extra Curricular Activities -->
+        <div class="card">
+            <h2><i class="fas fa-users"></i> Extra Curricular Activities</h2>
+            <ul>
+                <li>Organising Secretary, Bangladesh Torun Column Writer Forum, Dhaka University Branch</li>
+                <li>Education Secretary, Dhaka University Students' Association of Pirojpur</li>
+                <li>General Member, IER Yes Group, TIB</li>
+            </ul>
+        </div>
+
+        <!-- References -->
+        <div class="card">
+            <h2><i class="fas fa-user-check"></i> References</h2>
+            <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 20px;">
+                <div>
+                    <h3>Dr. Md. Abdus Salam</h3>
+                    <p>Professor</p>
+                    <p>Dhaka University</p>
+                    <p><strong>Phone:</strong> 01711702630</p>
+                    <p><strong>Email:</strong> abdussalam@du.ac.bd</p>
+                </div>
+                <div>
+                    <h3>Dr. Mohammad Whaid</h3>
+                    <p>Assistant Professor, Dept. of Nephrology</p>
+                    <p>Bangladesh Medical University</p>
+                    <p><strong>Phone:</strong> +880 1766-551294</p>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <footer>
+        <p>&copy; 2026 MD. Merajul Akon. All Rights Reserved.</p>
+    </footer>
+
+</body>
+</html>
